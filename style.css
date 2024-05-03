@@ -1,0 +1,635 @@
+
+    .navbar1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar1>.menu1>a{
+        padding: 0px 0.5vw;
+    border-left: 1px solid black;
+    color: darkblue;
+    font-size: 10px;
+    text-decoration: none;
+   
+    
+    }
+    .firstmenu{
+        border: none!important;
+    }
+    .contactus{
+        padding: 4px 20px;
+        font-size: 13px;
+
+    }
+    .navbar2{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .inputbox{
+        width: 100%;
+        
+    }
+    .nameinput{
+width: 100%;
+padding: 6px 5px;
+border-radius: 5px;
+border: 1px solid lightgray;
+    }
+    .sign{
+         
+ 
+    align-items: center;
+    width: 370px;
+
+   gap: 20px;
+    margin-left: 40px;
+    margin-right: 33px;
+    white-space: nowrap;
+
+    font-size: 15px;
+    }
+    .wishlist{
+        display: flex;
+        align-items: center;
+       
+    }
+  .cart{
+    display: flex;
+        align-items: center;
+ 
+  }
+  .navbar3{
+    display: flex;
+    background-color: rgb(251, 249, 247);
+    padding: 10px 0px;
+    align-items: center;
+   
+justify-content: space-between;
+ 
+  }
+ 
+  .navbar3>div>a{
+    text-decoration: none;
+    margin: 0px 9px 0px 11px;
+     font-size: 20px;
+     font-weight: 500;
+  
+  }
+ 
+
+ body{
+    padding: 0px;
+    margin: 0px;
+ }
+.glassesimage{
+    background: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 20px;
+    
+
+ 
+  
+}
+.glassesimage>div{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.mainicon{
+width: 100%;
+height: 100%;
+}
+.title{
+    text-align: center;
+    color: darkgrey;
+    font-weight: 200;
+    margin-top: 2px;
+}
+
+
+   .weareyes>h1{
+    position: relative;
+   } 
+/* slideshow css */
+.slideshow {
+  width: 100%;
+
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+
+  box-sizing: border-box;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+    
+/* hhhhh */
+.slideMove{
+    display: flex;
+    
+    transition: transform 0.5s ease-in-out;
+}
+
+.slideMove>div{
+    margin-left:0px;
+   
+    justify-content: center;
+}
+.slideCont{
+    width: 80%;
+   overflow: hidden;
+   margin: 0 auto;
+   position: relative;
+   margin-top: 4%;
+   margin-bottom: 4%;
+    
+}
+
+.slide2 {
+    flex: 1 0 25%; /* Display four slides at a time */
+    min-width: 25%; /* Ensure each slide takes up 25% of the container width */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    
+}
+.slide2>img{
+    width: 80%;
+}
+.prev-btn2, .next-btn2 {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    margin-top: -50px;
+    padding: 0px;
+    margin-left: 10px;
+    color: gray;
+    font-weight: bold;
+    font-size: 26px;
+    transition: 0.6s ease;
+    border: none;
+    user-select: none;
+    background-color: #fff;
+    
+  
+  }
+
+  .next-btn2 {
+    right: 0px;
+   
+
+   
+  }
+
+  .prev-btn2:hover, .next-btn2:hover {
+    background-color: rgba(55, 53, 53, 0.8);
+   
+  }
+ .explo{
+    background: #56b7c3;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 140px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+    border: 0px;
+ }
+ .roy{
+    width: 100%;
+    height: 100%;
+ }
+ .MOUNI{
+    margin-top: 5%;
+ }
+ 
+ .perfectglasses{
+display: flex;
+width: 80%;
+justify-content: center;
+margin: auto;
+gap: 25px;
+
+
+ }
+ .perfectglasses>.section-left>div>img{
+   width:100%;
+   height: 100%;
+   margin-top: 20px;
+ }
+ .perfectglasses>.section-right>div>img{
+width: 100%;
+height: 100%;
+margin-top: 20px;
+ }
+.LENSES{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+gap: 10px;
+}
+.LENSES>div>img{
+    width: 100%;
+    height: 100%;
+}
+  .mainbanner{
+    display: flex;
+    width: 92%;
+    margin: auto;
+    gap: 10px;
+  } 
+  .mainbanner>.left>div>img{
+    width: 100%;
+ height: auto;
+  }
+  .mainbanner>.right>div>img{
+    width: 100%;
+  height: auto;
+  }
+  .mainbanner>.left{
+    width: 50%;
+  }
+  .mainbanner>.right{
+    width: 50%;
+  }
+.contactlenses{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/* slideshow3 */
+.slideMove1{
+    display: flex;
+    
+    transition: transform 0.5s ease-in-out;
+}
+
+.slideMove1>div{
+    margin-left:0px;
+   
+    justify-content: center;
+}
+.slideCont1{
+    width: 80%;
+   overflow: hidden;
+   margin: 0 auto;
+   position: relative;
+   margin-top: 4%;
+   margin-bottom: 4%;
+    
+}
+.navbarstart{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    margin: 0px auto;
+    max-width: 1920px;
+    display: block !important;
+
+}
+
+
+.slide21 {
+    flex: 1 0 33%; /* Display four slides at a time */
+    min-width: 33%; /* Ensure each slide takes up 25% of the container width */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    
+}
+.slide21>img{
+    width: 80%;
+}
+.prev-btn21, .next-btn21 {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    margin-top: -50px;
+    padding: 0px;
+    margin-left: 10px;
+    color: gray;
+    font-weight: bold;
+    font-size: 26px;
+    transition: 0.6s ease;
+    border: none;
+    user-select: none;
+    background-color: #fff;
+    
+  
+  }
+
+  .next-btn21 {
+    right: 0px;
+   
+
+   
+  }
+
+  .prev-btn21:hover, .next-btn21:hover {
+    background-color: rgba(55, 53, 53, 0.8);
+   
+  }
+  .videosection{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+padding: 20px 0px 50px 0px;
+    justify-content: center;
+
+   
+  }
+  .videosection2{
+   background-color: #fff092;
+   text-align: center;
+   padding-top: 10px;
+   margin-top: 20px;
+  }
+  .footermainclass{
+    background-color: #000042;
+    color: white;
+    padding: 30px
+  }
+  .menuitems{
+    display: flex;
+  }
+  .service{
+    text-align: center;
+    padding-left: 40px;
+  }
+  ul{
+    list-style-type: none;
+    padding-left: 0px;
+    
+  }
+  .area{
+    padding: 0px;
+  }
+  ul>li{
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .playstore{
+    display: flex;
+    gap: 5px;
+  }
+  .twosection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .thirdsection{
+    display: flex; 
+    align-items: center;
+     justify-content: space-between;
+  }
+  .leftside{
+    display: flex; 
+    gap: 40px; align-items:
+     center;
+  }
+  .rightside{
+    display: flex; align-items: center; gap: 8px;
+  }
+  
+  /*bhjh  */
+  /* Popup container styles */
+/* Popup container styles */
+.popup {
+  display: none; /* Hide the popup by default */
+  position: fixed;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0px;
+  z-index: 9999;
+  width: 30%;
+  border-radius: 20px;
+}
+
+/* Close button styles */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+ 
+
+}
+
+/* Popup content styles */
+.popup-content {
+padding: 20px;
+  height: 100%;
+  
+}
+
+
+.popup-content>img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.inputtext{
+    padding: 15px;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+}
+.activepadding{
+    padding: 0px!important;
+}
+.myForm2{
+ display: flex;
+ flex-direction: column;
+}
+.inputsumbit{
+ 
+    margin: auto;
+    width: 50%;
+    border: 1px solid;
+    padding: 13px;
+    font-size: 17px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    background-color: darkgray;
+}
+.form2
+{
+     /* Hide the popup by default */
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0px;
+  z-index: 9990;
+  width: 20%;
+  border-radius: 20px;
+  display: none;
+  padding-bottom: 20px
+}
+
+
+.sameclass{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 8px;
+    width: 100%; 
+    background: rgb(255, 255, 255); 
+    height: 22px;
+    border: 1px solid rgb(226, 226, 238);
+    box-shadow: rgba(16, 24, 40, 0.05) 0px 1px 2px;
+    border-radius: 12px;
+    flex: 0 0 auto;
+     align-self: stretch;
+    -webkit-box-flex: 0;
+     position: relative; 
+    -webkit-box-align: center;
+    align-items: center;
+}
+.sign1{
+    border: none;
+    background-color: white;
+}
+.mainitemsclass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    width: 34%;
+}
+.mainitemsclass2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* responsive */
+
+@media screen and (min-width:340px) and (max-width:767px){
+    .glassesimage{
+        display: flex;
+        flex-direction: column;
+    }
+    .twosection{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdsection {
+        display: flex;
+        flex-direction: column;
+    }
+   .navbar2{
+    display: flex;
+    flex-direction: column;
+   }
+    .inputbox{
+        display: none;
+    }
+    .form2{
+        width: 60%;
+    }
+    .popup{
+        width: auto;
+    }
+    .slide2{
+      flex: 1 0 50%;
+    }
+    .navbar3{
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+  }
+  .videosection{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .contactlenses>div>h1{
+      font-size: 20px;
+    }
+    .perfectglasses{
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+/* responsive end */
+/* responsive tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .glassesimage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .navbar2{
+        display: flex;
+        flex-direction: column;
+       }
+       .inputbox{
+        display: none;
+       }
+  .form2{
+    width: auto;
+
+  }
+ 
+  .popup{
+    width: auto;
+  }
+
+}
+/* responsive tablet */
+.submitbutton{
+  width: 100%;
+  height: 40px;
+  margin-left: 10%;
+}
